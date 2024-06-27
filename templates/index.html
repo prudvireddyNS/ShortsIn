@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate YouTube Short</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate YouTube Short</h1>
+        <form id="generate-form">
+            <label for="topic">Topic:</label>
+            <input type="text" id="topic" name="topic" required>
+            <button type="submit">Generate</button>
+        </form>
+        <div id="message"></div>
+        <div id="download-link" style="display: none;">
+            <a id="download" href="#" download>Download Generated Video</a>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
